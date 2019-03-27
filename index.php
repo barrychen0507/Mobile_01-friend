@@ -7,7 +7,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body background="img/index_bg.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="font-family:微軟正黑體;">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF4500;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6ED2DF;">
         <a class="navbar-brand" href="#">皇翔</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -39,30 +39,50 @@
     <div class="row">
       <marquee><span style="font-size: 24px">本網站僅測試，正在開發階段，並非商業用途，僅供參考，待正式營運</span></marquee>
     </div>
-    <div class="row">
-    <div class="card col-sm-1 col-md-3 col-lg-3" style="background-color:cadetblue; border-color:darkblue; height:550px;">
+    <div class="row" style="color: white;">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 margin-top-2" style="color: black;">
+      <h1>空拍機</h1>
+      <p>空拍機可以讓您從高處拍攝您任何想拍的影片，照片等。</p>
+    </div>
+    <div class="col-12 card col-sm-12 col-md-6 col-lg-4 margin-left-2 margin-top-2" style="background-color:#48B29A; border-color:white; ">
       <img class="card-img-top margin-top-2" src="img/DJI MAVIC PRO.jpg" alt="">
       <div class="card-body">
         <h4 class="card-title">DJI MAVIC PRO</h4>
-        <p class="card-text">一種空拍機</p>
+        <h5>售租$1200 NTD</h5>
+        <p class="card-text">Inside the Mavic’s pocket-sized remote controller is DJI’s brand new OcuSync transmission technology, with a range of 4.3mi (7km)*, HD 720p long range and Full HD 1080p short range video streaming.</p>
       </div>
     </div>
-    <div class="card col-sm-1 col-md-3 col-lg-3 margin-left-2" style="background-color:cadetblue; border-color:darkblue; height:550px;">
+    <div class="col-12 card col-sm-12 col-md-6 col-lg-4 margin-left-2 margin-top-2" style="background-color:48B29A; border-color:white;">
       <img class="card-img-top margin-top-2" src="img/SPARK空拍機.jpg" alt="">
       <div class="card-body">
-        <h4 class="card-title">DJI MAVIC PRO</h4>
-        <p class="card-text">一種空拍機</p>
+        <h4 class="card-title">Spark 空拍機</h4>
+        <h5>售租$1000 NTD</h5>
+        <p class="card-text">極度便攜且容易使用，DJI Spark 空拍機全能套裝具備 DJI 的所有經典技術，包括 Gesture Control、ActiveTrack 與 Obstacle Avoidance。</p>
       </div>
     </div>
-    <div class="card col-sm-1 col-md-3 col-lg-3 margin-left-2" style="background-color:cadetblue; border-color:darkblue; height:550px;">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 margin-top-2" style="color: black;">
+      <h1>LED 電燈</h1>
+      <p>一種電燈 :D</p>
+    </div>
+    <div class="card col-12 col-sm-12 col-md-6 col-lg-4 margin-top-2 margin-left-2" style="background-color:51C0E7; border-color:white;overflow:visible;">
       <img class="card-img-top margin-top-2" src="img/3.jpg" alt="">
       <div class="card-body">
-        <h4 class="card-title">DJI MAVIC PRO</h4>
-        <p class="card-text">一種空拍機</p>
+        <h4 class="card-title">LED 電燈</h4>
+        <h5>售租$700 NTD (未含電池)</h5>
+        <p class="card-text">一種燈</p>
       </div>
     </div>
+    <div class="card col-12 col-sm-12 col-md-6 col-lg-4 margin-left-2 margin-top-2" style="background-color:51C0E7; border-color:white;">
+      <img class="card-img-top margin-top-2" src="img/1.jpg" alt="">
+      <div class="card-body">
+        <h4 class="card-title">LED燈配件電池</h4>
+        <h5>售租$500 NTD</h5>
+        <p class="card-text">可與本商場的 "LED 電燈" 相容。</p>
+      </div>
     </div>
-  </div>
+    
+    </div>
+    </div>
 </body>
 
 <!--<body background="BGG08.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><table width="1008" border="1" align="center">
