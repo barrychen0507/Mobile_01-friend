@@ -15,3 +15,11 @@
 
 6. 更改 檔案 "index.php"
     a. 更改 首頁名稱為 "皇翔租借商場 - 首頁"
+
+7. 變更 檔案 "index.php"
+    a. 使用 bootstrap 美化網站 :D 把左邊nav 移到上面 (topnav)
+    b. 增加對手機的支援 (RWS)
+
+8. 更改 檔案名稱 "fapbu.html"
+    a. 更改 檔案名稱 "fapbu.html" 到 "knowings.php"
+

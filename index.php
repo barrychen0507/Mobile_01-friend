@@ -1,10 +1,10 @@
 ﻿<head>
 <title>皇翔租借商場 - 首頁</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="css/default.min.css">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.js"></script>
 </head>
 <body background="img/index_bg.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="font-family:微軟正黑體;">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6ED2DF;">
@@ -17,10 +17,10 @@
                     <a class="nav-link" href="#"><b>首頁</b> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">租借須知</a>
+                    <a class="nav-link" href="knowings.php">租借須知</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">近期新上架商品</a>
+                    <a class="nav-link" href="newprod">近期新上架商品</a>
                 </li>
                 <li class="nav-item active">
                   <a href="#" class="nav-link">歸還器材評價表</a>
@@ -80,7 +80,14 @@
         <p class="card-text">可與本商場的 "LED 電燈" 相容。</p>
       </div>
     </div>
-    
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 margin-top-2 margin-left-2 margin-right-2"><p>
+            <b>聯絡方式:</b> line，fb，電話<br>
+            <b>住址:</b >彰化縣員林市中正路二巷271弄14號<br>
+            <b>電話:</b> 0987586999<br>
+            <b>LINE ID:</b> aa09331<br>
+            <b>營業時間:</b> 每周一~周六上午10點~晚上11:30<br>
+            <b>租借及歸還辦理時間:</b> 每周六.日上午9點~下午2點</p>
     </div>
     </div>
 </body>
