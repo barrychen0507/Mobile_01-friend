@@ -1,4 +1,11 @@
-<!doctype html>
+<head>
+  <title>皇翔租借商場 - 關於我們</title>
+  <?php include("include/nav.php");?>
+  <div class="container">
+    <h1>關於我們</h1>
+    <p>租借商場於2019年創立,以拍攝微電影,學生畢業製作,個人拍攝,商業拍攝,需求拍攝設備短暫性租借設備器材及設備買賣,商品的保您看的見~</p>
+  </div>
+<!--<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -66,3 +73,4 @@ h1 {
 <p>&nbsp;</p>
 </body>
 </html>
+-->
