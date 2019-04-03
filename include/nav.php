@@ -4,6 +4,7 @@
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 <script src="js/bootstrap/bootstrap.bundle.js"></script>
 </head>
+<?php $doc_name = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);?>
 <body background="img/index_bg.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="font-family:微軟正黑體;">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6ED2DF;">
         <a class="navbar-brand" href="#">皇翔</a>
@@ -12,25 +13,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><b>首頁</b> <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php"><?php if($doc_name == "index.php") {echo "<b>首頁</b>";} else {echo "首頁";}?></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="knowings.php">租借須知</a>
+                    <a class="nav-link" href="knowings.php"><?php if($doc_name == "knowings.php") {echo "<b>租借須知</b>";} else {echo "租借須知";}?></a>
                 </li>
                 <li class="nav-item active">
-                    <a href="about.php" class="nav-link">關於我們</a>
+                    <a class="nav-link" href="about.php"><?php if($doc_name == "about.php") {echo "<b>關於我們</b>";} else {echo "關於我們";}?></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="newprod">近期新上架商品</a>
-                </li>
-                <li class="nav-item active">
-                  <a href="#" class="nav-link">歸還器材評價表</a>
-                </li>
-                <li class="nav-item dropdown active">
+                <li class="nav-item dropdown disabled">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">表單</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">GOO 租借表</a>
-                        <a class="dropdown-item" href="#">設備 租借表 2</a>
+                        <a class="dropdown-item disabled" href="#" disabled>GOO 租借表</a>
+                        <a class="dropdown-item disabled" href="#" disabled>設備 租借表 2</a>
                     </div>
                 </li>
             </ul>
